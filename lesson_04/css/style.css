@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:500,700);
+@import url(https://fonts.googleapis.com/css?family=Arimo:regular,500,600italic);
+@import url("reset.css");
+@import url("fonts.css");
+
+
+.text {
+    font-family: "Roboto", sans-serif; 
+    font-size: 15px; 
+    color: blue;
+    font-weight: 500; 
+    font-style: normal; 
+    font-size: large; 
+    line-height: 180%; 
+    word-spacing: 8px;
+} 
+   
+.title {
+    font-family: "Arimo", sans-serif; 
+    font-size: 20px; 
+    text-shadow: 1px 2px 1px yellow, 2px -1px 3px blue;
+    color: yellow; 
+    font-weight: 500; 
+    font-style: oblique; 
+    text-align: center; 
+    text-decoration: underline; 
+    text-transform: capitalize; 
+}
+.list {
+    font-family: "Arimo", sans-serif; 
+    font-size: 20px;; 
+    font-weight: 600; 
+    font-style: italic; 
+    color: darkorange; 
+    text-align: right; 
+    letter-spacing: 1.5px;
+}
+.down-text {
+    font-family: "Roboto", sans-serif;  
+    font-weight: 700; 
+    font-size: 20px; 
+    text-align: center; 
+    text-transform: uppercase; 
+    text-shadow: 1px 2px 5px blue, 7px -2px 3px yellow;
+}
+
+h1 {
+    font-family: "Oswald"; 
+    text-align: center; 
+    font-size: 30px; 
+    font-weight: 500;
+}
+
+.title2 {
+    color: var(--Gray-900, #132238);
+    font-family: "Work Sans";
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+    align-self: stretch;
+}
+
+.text2 {
+    color: var(--Gray-600, #556070);
+    font-family: "Work Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+    
+.title3 {
+    color: var(--Neutral-Colors-Color-800, #1E1B39);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "DM Sans";
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 95px; 
+}    
+
+.text3 {
+    color: var(--Neutral-Colors-Neutral-700, #474464);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "DM Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+}
