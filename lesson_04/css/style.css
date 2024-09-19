@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:500,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:500,400,700);
 @import url(https://fonts.googleapis.com/css?family=Arimo:regular,500,600italic);
 @import url("reset.css");
 @import url("fonts.css");
@@ -72,7 +72,6 @@ h1 {
     
 .title3 {
     color: var(--Neutral-Colors-Color-800, #1E1B39);
-    font-feature-settings: 'liga' off, 'clig' off;
     font-family: "DM Sans";
     font-size: 88px;
     font-style: normal;
@@ -82,10 +81,28 @@ h1 {
 
 .text3 {
     color: var(--Neutral-Colors-Neutral-700, #474464);
-    font-feature-settings: 'liga' off, 'clig' off;
     font-family: "DM Sans";
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: 42px;
 }
+
+
+.title4 {
+color: var(--Colour-Main-Blue-900, #091133);
+font-family: Roboto;
+font-size: 50px;
+font-style: normal;
+font-weight: 500;
+line-height: 66px; 
+letter-spacing: 1px;
+}
+
+.text4 {
+color: var(--Colour-Main-Blue-500, #505F98);
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; }
